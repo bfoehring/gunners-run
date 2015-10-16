@@ -99,6 +99,8 @@ a {
 	height: 60px;
 	width: 100%;
 	background-color: #73461F;
+	position: fixed;
+	top: 0px;
 }
 
 .header-contain {
@@ -168,7 +170,7 @@ a {
 
 .content {
 	max-width: 550px;
-	margin: 50px 0px 50px 20px;
+	margin: 100px 0px 50px 20px;
 	float: left;
 }
 
