@@ -70,7 +70,16 @@ p {
 }
 
 a {
+	
+}
 
+.text-link {
+	color: #93B056;
+	text-decoration: none;
+}
+
+.text-link:hover {
+	text-decoration: underline;
 }
 
 .text-ul {
@@ -89,7 +98,7 @@ a {
 .header {
 	height: 60px;
 	width: 100%;
-	background-color: #592F16;
+	background-color: #73461F;
 }
 
 .header-contain {
@@ -99,14 +108,22 @@ a {
 }
 
 .logo {
-	font-family: 'Sanchez', serif;
-	font-size: 24px;
-	font-weight: 400;
-	color: #fff;
 	height: 40px;
 	padding-top: 20px;
 	float: left;
 	margin-left: 20px;
+	display: block;
+	cursor: pointer;
+}
+
+.home-link {
+	height: 60px;
+	width: 243px;
+	font-family: 'Sanchez', serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
 }
 
 .nav-links {
@@ -114,21 +131,33 @@ a {
 	font-family: 'Sanchez', serif;
 	font-size: 14px;
 	color: #fff;
-	background-color: #592F16;
+	background-color: #73461F;
 }
 
 .nav-links li {
 	float: left;
-	height: 37px;
+	height: 35px;
 	width: 100px;
 	text-align: center;
-	padding-top: 23px;
+	padding-top: 25px;
 	cursor: pointer;
 	transition: .2s;
 }
 
 .nav-links li:hover {
-	background-color: #73461F;
+	background-color: #592F16;
+}
+
+.contact-link {
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	color: #fff;
+}
+
+.about-link {
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	color: #fff;
 }
 
 .content-container {
@@ -151,6 +180,8 @@ a {
 	text-align: center;
 	font-size: 12px;
 	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 	letter-spacing: .05em;
 	color: #73461F;
 	padding-top: 9px;
