@@ -73,21 +73,74 @@ a {
 
 }
 
+.text-ul {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 28px; 
+	color: #333;
+	margin: 10px 0px 10px 0px;
+	text-indent: 20px;
+}
+
+.text-ul li:before {
+	content:"-"; position:relative; left:-5px;
+}
+
 .header {
 	height: 60px;
 	width: 100%;
-	background-color: #666;
+	background-color: #592F16;
+}
+
+.header-contain {
+	max-width: 960px;
+	height: 60px;
+	margin: 0px auto 0px auto;
+}
+
+.logo {
+	font-family: 'Sanchez', serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	height: 40px;
+	padding-top: 20px;
+	float: left;
+	margin-left: 20px;
+}
+
+.nav-links {
+	float: right;
+	font-family: 'Sanchez', serif;
+	font-size: 14px;
+	color: #fff;
+	background-color: #592F16;
+}
+
+.nav-links li {
+	float: left;
+	height: 37px;
+	width: 100px;
+	text-align: center;
+	padding-top: 23px;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.nav-links li:hover {
+	background-color: #73461F;
 }
 
 .content-container {
-	max-width: 550px;
+	width: 960px;
+	height: 100px;
 	margin: auto;
-	padding: 0px 20px 0px 20px;
 }
 
 .content {
-	width: 100%;
-	margin: 50px 0px 0px 0px;
+	max-width: 550px;
+	margin: 50px 0px 50px 20px;
+	float: left;
 }
 
 .button {
